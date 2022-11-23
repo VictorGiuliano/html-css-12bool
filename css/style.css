@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    padding-bottom:30px;
+}
+.row > [class^="colum"] {
+    min-height: 100px;
+    background-color: #006CFA;
+    color: white;
+    border:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colum{
+    flex-grow:1;
+}
