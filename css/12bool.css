@@ -10,6 +10,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 /* Facoltativa/Regola di sicurezza per evitare che qualcosa esca dalla row */
 .row > *{
